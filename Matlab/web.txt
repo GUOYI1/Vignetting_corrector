@@ -1,0 +1,22 @@
+Brief introduction
+==================
+
+nu_corrector is a tool for correcting intensity non-uniformity artifact of image. I use non-uniformity to denote image artifacts of both vignetting and bias (e.g. intensity inhomogeneity, illumination etc.). This tool is an impementation of our single-image based vignetting or bias correction systems based on the sparsity property of image gradient distribution.
+
+nu_corrector can correct vignetting with about 0.7 second and bias with about 0.9 second for an image in size of 750x580 through my experiments using a common computer.
+
+Information
+==================
+
+"Definition of vignetting and bias":
+
+Vignetting refers to the phenomenon of brightness attenuation away from the image center, and is an artifact that is prevalent in photography. Vignetting is generally assumed to be radially symmetric.
+
+Bias of image denotes the spatial variations of intensity/color caused by illumination changes for images taken by a digital camera, by inhomogenious magnetic field for MR images obtained with an MRI machine, or by non-uniform X-ray beam for CT images acquired with a CT scanner. Bias is a smooth field in any format, which can be represented by for example a bipoly model, B-Spline, etc.
+
+"Harm of vignetting and bias":
+
+Vignetting and bias can significantly impair computer vision algorithms that rely on precise intensity data. They include photometric methods such as shape from shading, appearance-based techniques such as object recognition and image mosaicing, and many other applications such as image segmentation, image registration, and feature extraction.
+
+
+keywords: vignetting correction, bias correction, artifact, illumination, light correction, intensity inhomogeneity, intensity inhomogeneity, intensity non-uniformity, photography, 
