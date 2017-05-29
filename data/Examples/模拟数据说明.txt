@@ -1,0 +1,7 @@
+***.jpg 是未加晕影的原图
+***_vig.jpg 是原图加晕影后的结果
+***_correct.jpg 是对带晕影的图像校正的结果
+***_Est.jpg 是Matlab程序反算出来的晕影函数
+***_Est_truth.jpg 是真实的晕影函数：
+ratio= 0.6/ (1.0 + exp((dist / maxDist - 0.8) * 8)) + 0.4，dist是径向距离
+***_curves.jpg 是晕影函数的曲线，绿的是真实的晕影函数，蓝的是Matlab程序反算出来的晕影函数

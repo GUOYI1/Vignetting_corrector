@@ -1,0 +1,11 @@
+Images with numerical name were downloaded from the Berkeley Segmentation Dataset and Benchmark:
+http://www.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/
+
+Images with name flickr* were downloaded from
+http://www.flickr.com/
+
+ptgui.jpg http://www.ptgui.com/examples/vigntutorial.html
+istochphoto.jpg http://www.istochphoto.com
+kenrockwell.jpg http://www.kenrockwell.com
+photocamel.jpg http://www.photocamel.com
+republika.jpg   http://www.republika.com
