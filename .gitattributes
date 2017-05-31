@@ -1,0 +1,2 @@
+*.m linguist-language=C++
+*.mat linguist-language=C++
