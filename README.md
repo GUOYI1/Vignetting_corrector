@@ -1,7 +1,7 @@
 Vignetting Correction
 ======================
 
-The code is implemented according to paper of *Single-Image Vignetting Correction*,by *Yuanjie Zheng,Stephen Lin*,etc.Both c++ and Matlab source codes are provided. For the Matlab version, I revise some parts of the code offered by the author, *Yuanjie Zheng*. For the C++ version, it iss implemented by my supervisor, *Donghai Xie* and me.    
+The code is implemented according to paper of [Single-Image Vignetting Correction*,by *Yuanjie Zheng,Stephen Lin*,etc](https://www.microsoft.com/en-us/research/wp-content/uploads/2009/12/pami09zheng.pdf).Both c++ and Matlab source codes are provided. For the Matlab version, I revise some parts of the code offered by the author, *Yuanjie Zheng*. For the C++ version, it is implemented by my supervisor, *Donghai Xie* and me.    
 
 ## C++ version:   
 Before compiling the source code, please make sure you have configured the OpenCV open source library properly. For C++ version, there are 2 projects. **Vignetting** project is used to produce vignet for images. **Vignetting correction** project is used to correct the vignetting on the images.
@@ -26,7 +26,7 @@ For the Matlab version, you can run the **demo_vignetting** module to start the 
 ### Couple   
 ![](./data/Examples/flickr_3.jpg)    
 ##### Corrected      
-![](./Matlab/Vignetting_corrected.png)       
+![](./data/Examples/M/couple_corrected.png)       
      
 ## Performance Estimate       
 We estimate the performance from 2 perspectives. 
